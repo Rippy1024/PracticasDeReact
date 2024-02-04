@@ -9,8 +9,7 @@ function App() {
     <>
       {/* aqui empiezo a maquetar comentario de html */}
       <section className="container my-4">
-        <h1 className="display-3 text-center">Contador con React</h1>
-        <TituloSecundario></TituloSecundario>
+        <h1 className="display-3 text-center text-danger">Contador con React</h1>
         <TituloSecundario/>
       </section>
     </>
