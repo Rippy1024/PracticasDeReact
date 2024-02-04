@@ -1,4 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css";
+import Contador from "./components/Contador";
 import TituloSecundario from "./components/TituloSecundario";
 
 function App() {
@@ -11,6 +12,7 @@ const anioActual = 2024;
       <section className="container my-4">
         <h1 className="display-3 text-center text-danger">Contador con React</h1>
         <TituloSecundario comision='c73i' anioActualProps={anioActual} />
+        <Contador/>
       </section>
     </>
   );
